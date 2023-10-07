@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>javascript arrayfindindex()</h1>
+        <p id="demo"></p>
+        <script>
+            const numbers=[34,54,1,23,23,10];
+            let first=numbers.find(myFunction);
+            document.getElementById("demo").innerHTML=first;
+
+            function myFunction(value,index,array){
+                return value<19;
+            }
+        </script>
+    </body>
+</html>
